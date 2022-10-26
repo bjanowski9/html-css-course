@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Squada One', 'Roboto Flex', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  display: flex;
+  padding: 28px 10%;
+  background-color: #2B2D42;
+  font-family: 'Roboto Flex';
+}
+
+body{
+  font-family: 'Squada One';
+  background-color: #edf2f4;
+}
+
+.main {
+  
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  margin: 24px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  margin: 24px;
+}
+
+.button1 {
+  margin: 16px;
+  width: 200px;
+  height: 48px;
+  background: #2B2D42;
+  border: 2px solid #D90429;
+  border-radius: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F0F0F0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 1s;
+  }
+
+  .button1:hover{
+    background: white;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .button2 {
+    margin: 16px;
+    width: 200px;
+    height: 48px;
+    background: white;
+    border-radius: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+    }
+  
+    .button2:hover{
+      background: white;
+      color: #D90429;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+  https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
